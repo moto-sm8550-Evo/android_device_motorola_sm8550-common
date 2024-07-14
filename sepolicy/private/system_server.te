@@ -1,3 +1,1 @@
 allow system_server mot_system_service:service_manager add;
-allow system_server radio_service:service_manager { add find };
-allow system_server self:capability { sys_boot };

@@ -139,6 +139,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.aon@1.3.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+# Configstore
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.capabilityconfigstore@1.0 \
+    vendor.qti.hardware.capabilityconfigstore@1.0.vendor
+
 # Charger
 WITH_LINEAGE_CHARGER := false
 
