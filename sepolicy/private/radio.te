@@ -1,2 +1,6 @@
 allow radio mot_radio_service:service_manager { add find };
 allow radio mot_system_service:service_manager find;
+# allow radio self:capability { net_admin net_raw };
+allow radio system_file:dir search;
+allow radio system_file:file { read open };
+
