@@ -1587,7 +1587,9 @@ vendor/bin/hw/android.hardware.drm-service.widevine
 vendor/etc/init/android.hardware.drm-service.widevine.rc
 vendor/etc/qcom_widevine_licenses.pfm
 vendor/etc/vintf/manifest/manifest_android.hardware.drm-service.widevine.xml
+vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvaidl.so
+vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 
 # WiFi
 vendor/bin/cnss-daemon

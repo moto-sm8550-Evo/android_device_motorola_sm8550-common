@@ -8,5 +8,5 @@
 
 sleep 2
 stop bootanim
-sleep 0.5
+sleep 1
 start bootanim

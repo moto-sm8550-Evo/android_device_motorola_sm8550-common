@@ -76,3 +76,26 @@ on property:init.svc.bootanim=running
 
 on property:sys.boot_completed=1
     start sim-restart
+
+service vendor.qti.hardware.dpmservice@1.1 /vendor/bin/hw/vendor.qti.hardware.dpmservice@1.1-service
+    class hal
+    user system
+    group system
+    seclabel u:r:hal_vendor_default:s0
+    disabled
+    oneshot
+
+on property:ro.vendor.qti.hardware.dpmservice@1.1=1
+    start vendor.qti.hardware.dpmservice@1.1
+
+service vendor.qti.data.factory@2.6 /vendor/bin/hw/vendor.qti.data.factory@2.6-service
+    class hal
+    user system
+    group system
+    seclabel u:r:hal_vendor_default:s0
+    disabled
+    oneshot
+
+on property:ro.vendor.qti.data.factory@2.6=1
+    start vendor.qti.data.factory@2.6
+
