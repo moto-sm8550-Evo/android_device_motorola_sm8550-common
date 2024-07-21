@@ -587,7 +587,7 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 PRODUCT_PACKAGES += \
-    UpdaterEVOService
+    Updater
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm8550-common/sm8550-common-vendor.mk)
