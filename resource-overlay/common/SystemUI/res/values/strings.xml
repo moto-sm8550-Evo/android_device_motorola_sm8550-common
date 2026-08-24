@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Motorola brands its fast charging as TurboPower, so use that name on the
+         lock screen instead of the generic "Charging rapidly". -->
+    <string name="keyguard_plugged_in_charging_fast"><xliff:g id="percentage">%s</xliff:g> • TurboPower connected</string>
+    <string name="keyguard_indication_charging_time_fast"><xliff:g id="percentage">%2$s</xliff:g> • TurboPower connected • Full in <xliff:g id="charging_time_left" example="4 hr, 2 min">%1$s</xliff:g></string>
+</resources>
