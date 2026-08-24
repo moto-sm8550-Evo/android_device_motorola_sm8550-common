@@ -208,6 +208,8 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     LineageApertureAppCommon \
     LineageSdkCommon \
+    SettingsProviderResCommon \
+    SettingsResCommon \
     SystemUIResCommon \
     TelephonyResCommon \
     WifiResCommon \

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Every sm8550 Motorola device has a light sensor and a tuned auto brightness
+         curve, so turn adaptive brightness on out of the box. -->
+    <bool name="def_screen_brightness_automatic_mode">true</bool>
+</resources>
